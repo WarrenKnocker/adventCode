@@ -1,0 +1,20 @@
+{
+  "name": "trebuchet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/src/index.js",
+    "test": "npm run build && mocha dist/test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^5.0.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.3.3"
+  }
+}
